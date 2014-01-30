@@ -68,17 +68,17 @@ textarea {
 #video_container
 {
 	position: relative;    
-    background-size: contain;
+    /*background-size: contain;*/
     top: 0;	
 }
 
 video 
 {
 	
-	/*margin-left: -512px; */
+	/*objetivo: centralizar video*/
 	width: 100%;
-	height: 100%;
-	max-width:600px;
+	height: 450px;
+	/*max-width:600px;*/
 }
 
 
