@@ -65,8 +65,20 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#video_container
+{
+	position: relative;    
+    background-size: contain;
+    top: 0;	
+}
 
-
+video 
+{
+	
+	/*margin-left: -512px; */
+	width: 100%;
+	max-width:600px;
+}
 
 
 
