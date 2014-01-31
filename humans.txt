@@ -4,6 +4,7 @@
 # TEAM
 
     <name> -- <role> -- <twitter>
+    Rafael Guimaraes dos Santos  developer  @oguima
 
 # THANKS
 
