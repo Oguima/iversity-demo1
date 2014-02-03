@@ -83,6 +83,15 @@ video
 
 body {
    background: -webkit-radial-gradient(circle, white, rgb(55,119,124));
+
+    background: rgb(55,119,124); /* Old browsers */
+    background: -moz-radial-gradient(circle, white, rgb(55,119,124)); /* FF3.6+ */
+    background: -webkit-gradient(circle, white, rgb(55,119,124)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(circle, white, rgb(55,119,124)); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(circle, white, rgb(55,119,124)); /* Opera 12+ */
+    background: -ms-radial-gradient(circle, white, rgb(55,119,124)); /* IE10+ */
+    background: radial-gradient(circle, white, rgb(55,119,124)); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 .patern-diagonal-strip {
