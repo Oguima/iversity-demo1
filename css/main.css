@@ -68,22 +68,47 @@ textarea {
 #video_container
 {
 	position: relative;    
-    /*background-size: contain;*/
+    /*centralizado*/
     top: 0;	
+    margin-left:auto;
+    margin-right:auto;
+    width:640px;
 }
 
 video 
 {
-	width: 100%;
-	height: 450px;
-	max-width:600px;
+	height: 360px;
+	max-width:640px;
+}
+
+body {
+   background: -webkit-radial-gradient(circle, white, rgb(55,119,124));
+}
+
+.patern-diagonal-strip {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+	height: 100%;
+    background-color: gray;
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 2px, rgba(255,255,255,.5) 2px, rgba(255,255,255,.5) 3px);
+    opacity: 0.2;
 }
 
 
 
+h1
+{
+    font-family: 'Londrina Shadow', cursive;
+    color:white;
+}
 
-
-
+p, h2, a
+{
+    font-family: 'Press Start 2P', cursive;
+    color:white;
+}
 
 
 
