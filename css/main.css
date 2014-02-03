@@ -96,12 +96,9 @@ body {
     opacity: 0.2;
 }
 
-
-
 h1
 {
     font-family: 'Londrina Shadow', cursive;
-    color:white;
 }
 
 p, h2, a
@@ -109,13 +106,6 @@ p, h2, a
     font-family: 'Press Start 2P', cursive;
     color:white;
 }
-
-
-
-
-
-
-
 
 
 /* ==========================================================================
